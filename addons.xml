@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.audio.musicflow" name="MusicFlow" version="1.0.0" provider-name="MusicFlow">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="plugin.video.youtube" version="6.0.0"/>
+    <import addon="script.module.yt-dlp" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <license>MIT</license>
+    <summary lang="pt_BR">Pesquise e ouça músicas do YouTube Music no Kodi</summary>
+    <summary lang="en_GB">Search and play YouTube Music tracks in Kodi</summary>
+    <description lang="pt_BR">MusicFlow permite pesquisar músicas, artistas, álbuns e playlists públicas do YouTube Music e reproduzi-las no player nativo do Kodi, com playlists locais, favoritos, histórico e fila de reprodução. Não requer login. Reprodução feita via add-on YouTube oficial ou, opcionalmente, yt-dlp.</description>
+    <description lang="en_GB">MusicFlow lets you search YouTube Music songs, artists, albums and public playlists and play them in Kodi's native player, with local playlists, favourites, history and a play queue. No login required. Playback goes through the official YouTube add-on or, optionally, yt-dlp.</description>
+    <disclaimer lang="pt_BR">Não afiliado ao Google/YouTube. O uso do serviço está sujeito aos termos do YouTube. Nenhum conteúdo é hospedado por este add-on.</disclaimer>
+    <disclaimer lang="en_GB">Not affiliated with Google/YouTube. Use of the service is subject to YouTube's terms. This add-on hosts no content.</disclaimer>
+    <assets>
+      <icon>resources/media/icon.png</icon>
+      <fanart>resources/media/fanart.png</fanart>
+    </assets>
+    <news>1.0.0: first release.</news>
+  </extension>
+</addon>
+<addon id="repository.musicflow" name="MusicFlow Repository" version="1.0.0" provider-name="MusicFlow">
+  <requires>
+    <import addon="xbmc.addon" version="12.0.0"/>
+  </requires>
+  <extension point="xbmc.addon.repository" name="MusicFlow Repository">
+    <dir>
+      <info compressed="false">https://guilhermeteles16.github.io/kodi-musicflow/addons.xml</info>
+      <checksum>https://guilhermeteles16.github.io/kodi-musicflow/addons.xml.md5</checksum>
+      <datadir zip="true">https://guilhermeteles16.github.io/kodi-musicflow/</datadir>
+    </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="pt_BR">Repositório oficial do MusicFlow</summary>
+    <description lang="pt_BR">Repositório para instalar e atualizar o complemento MusicFlow.</description>
+    <platform>all</platform>
+    <license>MIT</license>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
+</addons>

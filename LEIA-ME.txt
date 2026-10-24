@@ -1,0 +1,14 @@
+MUSICFLOW KODI REPOSITORY — publicar na raiz do GitHub Pages
+
+1. Extraia TODO o conteúdo deste pacote.
+2. Envie os arquivos e pastas extraídos para a RAIZ da branch main do repositório:
+   https://github.com/guilhermeteles16/kodi-musicflow
+3. Confirme que o GitHub Pages continua configurado para branch main / root.
+4. No Kodi, instale primeiro o arquivo repository.musicflow-1.0.0.zip
+   (pode baixar em https://guilhermeteles16.github.io/kodi-musicflow/repository.musicflow-1.0.0.zip).
+5. Depois: Add-ons > Instalar do repositório > MusicFlow Repository > Add-ons de música > MusicFlow.
+
+Fonte para Gerenciador de arquivos:
+https://guilhermeteles16.github.io/kodi-musicflow/
+
+Dependência: o addon MusicFlow declara dependência do complemento oficial plugin.video.youtube.

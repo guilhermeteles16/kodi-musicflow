@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.musicflow" name="MusicFlow Repository" version="1.0.0" provider-name="MusicFlow">
+  <requires>
+    <import addon="xbmc.addon" version="12.0.0"/>
+  </requires>
+  <extension point="xbmc.addon.repository" name="MusicFlow Repository">
+    <dir>
+      <info compressed="false">https://guilhermeteles16.github.io/kodi-musicflow/addons.xml</info>
+      <checksum>https://guilhermeteles16.github.io/kodi-musicflow/addons.xml.md5</checksum>
+      <datadir zip="true">https://guilhermeteles16.github.io/kodi-musicflow/</datadir>
+    </dir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="pt_BR">Repositório oficial do MusicFlow</summary>
+    <description lang="pt_BR">Repositório para instalar e atualizar o complemento MusicFlow.</description>
+    <platform>all</platform>
+    <license>MIT</license>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
